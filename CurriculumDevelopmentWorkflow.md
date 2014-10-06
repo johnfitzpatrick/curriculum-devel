@@ -2,7 +2,7 @@
 
 All Curriculum Development is moving to GitHub under https://github.com/learnchef
 
-The actual repos will be (tbd)
+The actual repos will be
 - https://github.com/learnchef/chef-fundamentals-windows
 - https://github.com/learnchef/chef-fundamentals-linux
 - https://github.com/learnchef/chef-intermediate
@@ -78,23 +78,22 @@ It's awesome that you want to make actual changes to the materials. A lot of the
 
  You can always edit your commit message before you do a `git push` by
 
-```
-$ git commit --amend
-```
+ ```
+ $ git commit --amend
+ ```
 
-__Note__ If screw up and want to reset your git add/commit, then you can
+ __Note__ If screw up and want to reset your git add/commit, then you can
 
-```
-$ git reset HEAD~1
-```
+ ```
+ $ git reset HEAD~1
+ ```
 
 8. Push the new branch to GitHub
-
 ```
 $ git push origin newbranchname
 ```
 
-__Note__: Always issue pull requests off the latest master branch.
+ __Note__: Always issue pull requests off the latest master branch.
 
 9.  Navigate to https://github.com/learnchef/classname and create a new Pull Request
 
