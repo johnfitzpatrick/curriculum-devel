@@ -124,8 +124,8 @@ To publish materials:
 
 2. Run the following command with the appropriate version number
  ```
- $ git tag -d v2.1.5
- $ git push origin :ref/tags/v2.1.5
+ $ git tag -a v2.1.5 -m 'Classname v2.1.5'
+ $ git push origin v2.1.5
  ```
 
  GitHub refers to a tagged version as a 'Release' and creates a `classname.zip` and `classname.tar.gz` of the repo contents
