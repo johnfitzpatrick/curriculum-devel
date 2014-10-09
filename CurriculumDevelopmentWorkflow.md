@@ -122,8 +122,13 @@ To publish materials:
 
 2. Run the following command with the appropriate version number
  ```
- $ git tag -a v2.1.5 -m 'Classname v2.1.5'
- $ git push origin v2.1.5
+ $ git tag -a Classname-v2.1.5 -m 'Classname v2.1.5'
+ $ git push origin Classname-v2.1.5
+ ```
+ e.g.
+ ```
+ $ git tag -a Chef-Fundamentals-Windows_v2.0.1 -m 'Chef Fundamentals Windows v2.0.1'
+ $ git push origin Chef-Fundamentals-Windows_v2.0.1
  ```
 
  GitHub refers to a tagged version as a 'Release' and creates a `classname.zip` and `classname.tar.gz` of the repo contents
