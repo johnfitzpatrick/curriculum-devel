@@ -27,8 +27,6 @@ If you have a number of issues/typos/suggestions on specific slides, then you ca
 
 * Include a picture of the slide or handout page (Issues allow you to drag-and-drop images) and information that identifies the slide or page (e.g. slide/page title, slide/page number)
 
-https://www.dropbox.com/s/a6b72bhgmuhn9ct/Screenshot%202014-10-01%2013.35.55.png?dl=0
-
 * For each item, within the issue, use Github markdown's bullet list. This renders each item with a checkbox which is useful to track completion.
 
 ```
