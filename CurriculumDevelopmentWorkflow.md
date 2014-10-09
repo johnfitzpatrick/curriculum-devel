@@ -52,7 +52,7 @@ It's awesome that you want to make actual changes to the materials. A lot of the
 
 4. Make the changes to the materials on this new branch
 
-5. Update `CHANGELOG.md` with a list of your changes
+5. Update `ReleaseNotes.md` with a list of your changes
 
 6. Add and commit your changes
  ```
