@@ -119,13 +119,13 @@ Once a new version is released, the old version will not be deleted for a couple
 To publish materials:
 
 1. Move to the master branch & merge your branch
-```
-$ git checkout master
-$ git pull origin master
-$ git merge newbranchname
-$ git commit -m "merged branch 'newbranchname'"
-$ git push origin master
-```
+ ```
+ $ git checkout master
+ $ git pull origin master
+ $ git merge newbranchname
+ $ git commit -m "merged branch 'newbranchname'"
+ $ git push origin master
+ ```
 
 2. Run the following command with the appropriate version number
  ```
