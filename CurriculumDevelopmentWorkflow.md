@@ -130,17 +130,16 @@ To publish materials:
 2. Run the following command with the appropriate version number
  ```
  $ git tag -a v2.1.5 -m 'Classname v2.1.5'
- $ git push origin Classname-v2.1.5
+ $ git push origin v2.1.5
  ```
  e.g.
  ```
  $ git tag -a v2.0.1 -m 'Chef Fundamentals Windows v2.0.1'
- $ git push origin Chef-Fundamentals-Windows_v2.0.1
+ $ git push origin v2.0.1
  ```
  GitHub refers to a tagged version as a 'Release' and creates a `classname.zip` and `classname.tar.gz` of the repo contents.
 
- > Note: The zip file for the release will contain the name of the repo, so no need to include the class in the tag. E.g., if the repo was called 'chefclass', and you tagged the release `git tag -a ChefClass-v2.0.1`, then the downloaded file would be  `chefclass-ChefClass-v2.0.1`
-
+ > Note: The zip file for the release will contain the name of the repo (which in our case is the name of the class), so no need to include the class in the tag. E.g., if the repo was  `https://github.com/learnchef/chef-fundamentals-linux`, and you tagged the release `git tag -a v2.0.1`, then the ZIP file to downlaod would be  `chef-fundamentals-linux-v2.0.1.zip`
 
 3. Click on the 'Releases' tab on the GitHub repo
 
